@@ -1,0 +1,22 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#define kTerminalNo  @"1" //1标签  终端代码 01ud8qau
+#define kKSN  @"6"           //6标签  ksn 4013009958
+#define kTag12  @"12"       //B标签  不知道是什么
+
+//磁条卡
+#define kMCCount  @"5" //5标签  主账户
+#define kMCTrackOneLen  @"7"
+#define kMCTrackTwoLen  @"8"
+#define kMCTrackThreeLen  @"9"
+#define kMCTrackOneData  @"B"
+#define kMCTrackTwoThreeData  @"A"

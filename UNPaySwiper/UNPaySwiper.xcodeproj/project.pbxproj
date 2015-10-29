@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825B051D1B79D51B00F2F5C5 /* DCCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 825B051C1B79D51B00F2F5C5 /* DCCommand.m */; };
+		828435EC1B7488F7005F2743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828435EB1B7488F7005F2743 /* Foundation.framework */; };
+		828435F11B7488F7005F2743 /* UNPaySwiper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 828435F01B7488F7005F2743 /* UNPaySwiper.h */; };
+		828435F31B7488F7005F2743 /* UNPaySwiper.m in Sources */ = {isa = PBXBuildFile; fileRef = 828435F21B7488F7005F2743 /* UNPaySwiper.m */; };
+		828435FA1B7488F7005F2743 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828435F91B7488F7005F2743 /* XCTest.framework */; };
+		828435FB1B7488F7005F2743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828435EB1B7488F7005F2743 /* Foundation.framework */; };
+		828435FD1B7488F8005F2743 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828435FC1B7488F8005F2743 /* UIKit.framework */; };
+		828436001B7488F8005F2743 /* libUNPaySwiper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 828435E81B7488F7005F2743 /* libUNPaySwiper.a */; };
+		828436061B7488F8005F2743 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 828436041B7488F8005F2743 /* InfoPlist.strings */; };
+		828436081B7488F8005F2743 /* UNPaySwiperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 828436071B7488F8005F2743 /* UNPaySwiperTests.m */; };
+		828436161B74A092005F2743 /* DCBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 828436151B74A092005F2743 /* DCBluetooth.m */; };
+		828436191B74A709005F2743 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828436181B74A709005F2743 /* CoreBluetooth.framework */; };
+		8284361C1B74B4BB005F2743 /* DCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8284361B1B74B4BB005F2743 /* DCCommon.m */; };
+		828436201B74B4EF005F2743 /* TripleDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 8284361F1B74B4EF005F2743 /* TripleDES.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		828435FE1B7488F8005F2743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828435E01B7488F7005F2743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828435E71B7488F7005F2743;
+			remoteInfo = UNPaySwiper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		828435E61B7488F7005F2743 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				828435F11B7488F7005F2743 /* UNPaySwiper.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		825B051B1B79D51B00F2F5C5 /* DCCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCommand.h; sourceTree = "<group>"; };
+		825B051C1B79D51B00F2F5C5 /* DCCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCommand.m; sourceTree = "<group>"; };
+		828435E81B7488F7005F2743 /* libUNPaySwiper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUNPaySwiper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		828435EB1B7488F7005F2743 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		828435EF1B7488F7005F2743 /* UNPaySwiper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UNPaySwiper-Prefix.pch"; sourceTree = "<group>"; };
+		828435F01B7488F7005F2743 /* UNPaySwiper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UNPaySwiper.h; sourceTree = "<group>"; };
+		828435F21B7488F7005F2743 /* UNPaySwiper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNPaySwiper.m; sourceTree = "<group>"; };
+		828435F81B7488F7005F2743 /* UNPaySwiperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNPaySwiperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		828435F91B7488F7005F2743 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		828435FC1B7488F8005F2743 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		828436031B7488F8005F2743 /* UNPaySwiperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UNPaySwiperTests-Info.plist"; sourceTree = "<group>"; };
+		828436051B7488F8005F2743 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		828436071B7488F8005F2743 /* UNPaySwiperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNPaySwiperTests.m; sourceTree = "<group>"; };
+		828436141B74A07C005F2743 /* DCBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBluetooth.h; sourceTree = "<group>"; };
+		828436151B74A092005F2743 /* DCBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBluetooth.m; sourceTree = "<group>"; };
+		828436171B74A0C6005F2743 /* TransferService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+		828436181B74A709005F2743 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8284361A1B74B4BB005F2743 /* DCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCommon.h; sourceTree = "<group>"; };
+		8284361B1B74B4BB005F2743 /* DCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCommon.m; sourceTree = "<group>"; };
+		8284361D1B74B4EF005F2743 /* DC_ISO8583.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DC_ISO8583.h; sourceTree = "<group>"; };
+		8284361E1B74B4EF005F2743 /* TripleDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripleDES.h; sourceTree = "<group>"; };
+		8284361F1B74B4EF005F2743 /* TripleDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripleDES.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828435E51B7488F7005F2743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828436191B74A709005F2743 /* CoreBluetooth.framework in Frameworks */,
+				828435EC1B7488F7005F2743 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828435F51B7488F7005F2743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828435FA1B7488F7005F2743 /* XCTest.framework in Frameworks */,
+				828436001B7488F8005F2743 /* libUNPaySwiper.a in Frameworks */,
+				828435FD1B7488F8005F2743 /* UIKit.framework in Frameworks */,
+				828435FB1B7488F7005F2743 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828435DF1B7488F7005F2743 = {
+			isa = PBXGroup;
+			children = (
+				828435ED1B7488F7005F2743 /* UNPaySwiper */,
+				828436011B7488F8005F2743 /* UNPaySwiperTests */,
+				828435EA1B7488F7005F2743 /* Frameworks */,
+				828435E91B7488F7005F2743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828435E91B7488F7005F2743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828435E81B7488F7005F2743 /* libUNPaySwiper.a */,
+				828435F81B7488F7005F2743 /* UNPaySwiperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828435EA1B7488F7005F2743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828436181B74A709005F2743 /* CoreBluetooth.framework */,
+				828435EB1B7488F7005F2743 /* Foundation.framework */,
+				828435F91B7488F7005F2743 /* XCTest.framework */,
+				828435FC1B7488F8005F2743 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828435ED1B7488F7005F2743 /* UNPaySwiper */ = {
+			isa = PBXGroup;
+			children = (
+				828435F01B7488F7005F2743 /* UNPaySwiper.h */,
+				828435F21B7488F7005F2743 /* UNPaySwiper.m */,
+				828436141B74A07C005F2743 /* DCBluetooth.h */,
+				828436151B74A092005F2743 /* DCBluetooth.m */,
+				825B051B1B79D51B00F2F5C5 /* DCCommand.h */,
+				825B051C1B79D51B00F2F5C5 /* DCCommand.m */,
+				8284361A1B74B4BB005F2743 /* DCCommon.h */,
+				8284361B1B74B4BB005F2743 /* DCCommon.m */,
+				8284361D1B74B4EF005F2743 /* DC_ISO8583.h */,
+				8284361E1B74B4EF005F2743 /* TripleDES.h */,
+				8284361F1B74B4EF005F2743 /* TripleDES.m */,
+				828436171B74A0C6005F2743 /* TransferService.h */,
+				828435EE1B7488F7005F2743 /* Supporting Files */,
+			);
+			path = UNPaySwiper;
+			sourceTree = "<group>";
+		};
+		828435EE1B7488F7005F2743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828435EF1B7488F7005F2743 /* UNPaySwiper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828436011B7488F8005F2743 /* UNPaySwiperTests */ = {
+			isa = PBXGroup;
+			children = (
+				828436071B7488F8005F2743 /* UNPaySwiperTests.m */,
+				828436021B7488F8005F2743 /* Supporting Files */,
+			);
+			path = UNPaySwiperTests;
+			sourceTree = "<group>";
+		};
+		828436021B7488F8005F2743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828436031B7488F8005F2743 /* UNPaySwiperTests-Info.plist */,
+				828436041B7488F8005F2743 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828435E71B7488F7005F2743 /* UNPaySwiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8284360B1B7488F8005F2743 /* Build configuration list for PBXNativeTarget "UNPaySwiper" */;
+			buildPhases = (
+				828435E41B7488F7005F2743 /* Sources */,
+				828435E51B7488F7005F2743 /* Frameworks */,
+				828435E61B7488F7005F2743 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNPaySwiper;
+			productName = UNPaySwiper;
+			productReference = 828435E81B7488F7005F2743 /* libUNPaySwiper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		828435F71B7488F7005F2743 /* UNPaySwiperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8284360E1B7488F8005F2743 /* Build configuration list for PBXNativeTarget "UNPaySwiperTests" */;
+			buildPhases = (
+				828435F41B7488F7005F2743 /* Sources */,
+				828435F51B7488F7005F2743 /* Frameworks */,
+				828435F61B7488F7005F2743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828435FF1B7488F8005F2743 /* PBXTargetDependency */,
+			);
+			name = UNPaySwiperTests;
+			productName = UNPaySwiperTests;
+			productReference = 828435F81B7488F7005F2743 /* UNPaySwiperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828435E01B7488F7005F2743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dynamicode;
+			};
+			buildConfigurationList = 828435E31B7488F7005F2743 /* Build configuration list for PBXProject "UNPaySwiper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 828435DF1B7488F7005F2743;
+			productRefGroup = 828435E91B7488F7005F2743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828435E71B7488F7005F2743 /* UNPaySwiper */,
+				828435F71B7488F7005F2743 /* UNPaySwiperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828435F61B7488F7005F2743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828436061B7488F8005F2743 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828435E41B7488F7005F2743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8284361C1B74B4BB005F2743 /* DCCommon.m in Sources */,
+				828435F31B7488F7005F2743 /* UNPaySwiper.m in Sources */,
+				828436201B74B4EF005F2743 /* TripleDES.m in Sources */,
+				825B051D1B79D51B00F2F5C5 /* DCCommand.m in Sources */,
+				828436161B74A092005F2743 /* DCBluetooth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828435F41B7488F7005F2743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828436081B7488F8005F2743 /* UNPaySwiperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		828435FF1B7488F8005F2743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828435E71B7488F7005F2743 /* UNPaySwiper */;
+			targetProxy = 828435FE1B7488F8005F2743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		828436041B7488F8005F2743 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828436051B7488F8005F2743 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828436091B7488F8005F2743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		8284360A1B7488F8005F2743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		8284360C1B7488F8005F2743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UNPaySwiper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNPaySwiper/UNPaySwiper-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		8284360D1B7488F8005F2743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UNPaySwiper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNPaySwiper/UNPaySwiper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		8284360F1B7488F8005F2743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNPaySwiper/UNPaySwiper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UNPaySwiperTests/UNPaySwiperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		828436101B7488F8005F2743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNPaySwiper/UNPaySwiper-Prefix.pch";
+				INFOPLIST_FILE = "UNPaySwiperTests/UNPaySwiperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828435E31B7488F7005F2743 /* Build configuration list for PBXProject "UNPaySwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828436091B7488F8005F2743 /* Debug */,
+				8284360A1B7488F8005F2743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8284360B1B7488F8005F2743 /* Build configuration list for PBXNativeTarget "UNPaySwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8284360C1B7488F8005F2743 /* Debug */,
+				8284360D1B7488F8005F2743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8284360E1B7488F8005F2743 /* Build configuration list for PBXNativeTarget "UNPaySwiperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8284360F1B7488F8005F2743 /* Debug */,
+				828436101B7488F8005F2743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828435E01B7488F7005F2743 /* Project object */;
+}
